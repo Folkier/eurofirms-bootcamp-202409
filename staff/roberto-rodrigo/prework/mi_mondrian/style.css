@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100px;
+    height: 100px;
+}
+
+.row-1 {
+    width: 100%;
+    height: 60%;
+    background-color: green;
+    border-bottom: 4px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.row-2 {
+    width: 100%;
+    height: 40%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.cell-c {
+    width: 42%;
+    height: 100%;
+    background-color: rgb(195, 24, 24);
+    border-right: 4px solid black;
+}
+
+.cell-d {
+    width: 42%;
+    height: 102%;
+    background-color: blueviolet;
+}
+
+.cell-d1 {
+    width: 100%;
+    height: 85%;
+    background-color: hsl(36, 17%, 94%);
+    border-right: 4px solid black;
+}
+
+.cell-d2 {
+    width: 100%;
+    height: 15%;
+    background-color: hsl(36, 17%, 94%);
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.cell-e {
+    width: 16%;
+    height: 100%;
+    background-color: hsl(36, 17%, 94%);
+}
+
+.cell-e1 {
+    width: 100%;
+    height: 55%;
+    background-color: rgb(84, 84, 187);
+    border-bottom: 8px solid black;
+}
+
+.cell-a {
+    width: 40%;
+    height: 100%;
+    background-color: hsl(36, 17%, 94%);
+    border-right: 2px solid black;
+}
+
+.cell-b {
+    width: 60%;
+    height: 100%;
+    background-color: hsl(36, 17%, 94%);
+    border-left: 2px solid black;
+}

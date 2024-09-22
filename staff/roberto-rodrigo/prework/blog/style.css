@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.title {
+    width: 10%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.navigation {
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-text {
+    width: 50%;
+    height: 20%;
+}
+
+.input-button {
+    width: 50%;
+    height: 20%;
+    font-size: 10px;
+}
+
+.logout {
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.button-logout {
+    width: 100%;
+    height: 30%;
+}
+
+.main {
+    width: 95%;
+    height: 75%;
+    border: 3px solid black;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer {
+    width: 75%;
+    height: 10%;
+    border: 3px solid black;
+    align-self: flex-end;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-a {
+    width: 15%;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.footer-b {
+    width: 18%;
+    height: 65%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.footer-c {
+    width: 25%;
+    height: 45%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.footer-d {
+    width: 25%;
+    height: 35%;
+    border: 2px solid black;
+}
+
+.section-1 {
+    width: 60%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    justify-content: center;
+}
+
+.section-2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.section-a {
+    width: 80%;
+    height: 25%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    border-radius: 2%;
+}
+
+.article-1 {
+    width: 20%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.article-2 {
+    width: 30%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.article-3 {
+    width: 20%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.section-b {
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    border-radius: 2%;
+}
+
+.square-1 {
+    width: 25%;
+    height: 85%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    border-radius: 10%;
+}
+
+.square-2 {
+    width: 25%;
+    height: 85%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.square-3 {
+    width: 25%;
+    height: 85%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.square-1-a {
+    width: 70%;
+    height: 25%;
+    border: 2px solid black;
+
+    border-radius: 10%;
+}
+
+.square-1-b {
+    width: 70%;
+    height: 25%;
+    border: 2px solid black;
+
+    display: flex;
+    position: relative;
+    border-radius: 10%;
+}
+
+.square-2-a {
+    width: 100%;
+}
+
+.square-2-b {
+    width: 40%;
+    height: 25%;
+    border: 2px solid black;
+
+    align-self: flex-start;
+    border-radius: 10%;
+}
+
+.square-2-c {
+    width: 40%;
+    height: 25%;
+    border: 2px solid black;
+    align-self: flex-end;
+    border-radius: 10%;
+}
+
+.section-c {
+    width: 80%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.section-2-a {
+    width: 80%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.section-2-b {
+    width: 80%;
+    height: 30%;
+}
