@@ -5,7 +5,7 @@
 */
 
 function removeFirstElement(object) {
-    //guardar la valor de la propiedad que vamos a elminar ->numbers[0]<-
+    //guardar el valor de la propiedad que vamos a elminar ->numbers[0]<-
     var result = object[0]
     // para borrar la primera propiedad moveriamos todas las demas propiedades -> las propiedades a partir de numbers[0]<-
     for (var i = 0; i < object.length - 1; i++) {
